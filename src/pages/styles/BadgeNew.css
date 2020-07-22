@@ -1,0 +1,11 @@
+.BadgeNew__hero {
+    width: 100%;
+    padding: 2rem 0;
+    /*background: #1B1B25 url('./src/images/estrellas.svg') repeat;*/
+    margin-bottom: 1rem;
+    color: #ffffff;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
