@@ -1,12 +1,11 @@
 import React from 'react';
-
 import Navbar from '../components/Navbar';
-import logo from '../images/Group 47.svg';
-import star from '../images/estrellas.svg';
-import './styles/BadgeNew.css'
 import Badge from "../components/Badge";
 import BadgeForm from '../components/BadgeForm';
 
+import './styles/BadgeNew.css'
+import logo from '../images/Group 69.svg';
+import star from '../images/estrellas.svg';
 class BadgeNew extends React.Component {
 
     state = {
