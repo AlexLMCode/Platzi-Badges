@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/Group 69.svg'
+import logo from '../images/Group 47.svg'
 import './styles/navbar.css'
 
 class Navbar extends React.Component {

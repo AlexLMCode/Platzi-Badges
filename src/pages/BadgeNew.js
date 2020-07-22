@@ -1,10 +1,10 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
-import logo from '../images/Group 69.svg';
+import logo from '../images/Group 47.svg';
 import star from '../images/estrellas.svg';
 import './styles/BadgeNew.css'
-import Badge from "../components/batch";
+import Badge from "../components/Badge";
 import BadgeForm from '../components/BadgeForm';
 
 class BadgeNew extends React.Component {

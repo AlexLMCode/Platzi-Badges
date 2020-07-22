@@ -1,0 +1,22 @@
+.Badge__item {
+    margin-bottom: 1rem;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    width: 30rem;
+}
+
+.Badge__image {
+    border-radius: 50%;
+}
+
+.Badge__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-logo {
+    width: 1rem;
+    margin-right: 1rem;
+}
