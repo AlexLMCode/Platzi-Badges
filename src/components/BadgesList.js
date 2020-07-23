@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles/BadgesList.css';
 import twitter from "../images/twitter.jpg"
+
 class BadgesList extends React.Component{
     render() {
         return (
