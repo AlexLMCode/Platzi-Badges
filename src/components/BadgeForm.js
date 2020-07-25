@@ -22,25 +22,24 @@ class BadgeForm extends React.Component {
         console.log("button was clicked")
     };
 
-    handleSubmit = (e) => {
+/*    handleSubmit = (e) => {
         e.preventDefault();
         console.log('event submitted');
         console.log(this.state);
-    };
+    };*/
 
     render() {
         return (
             <div>
-                <h1>New Attendant</h1>
-                <form onSubmit={this.handleSubmit}>
+                <form onSubmit={this.props.OnSubmit}>
                     <div className="form-group">
-                        <label htmlFor="">Firts Name</label>
+                        <label htmlFor="">First Name</label>
                         <input
                             onChange={this.props.onChange}
                             className="form-control"
                             type="text"
-                            name="firtsName"
-                            value={this.props.formValues.firtsName}
+                            name="firstName"
+                            value={this.props.formValues.firstName}
                         />
                     </div>
                     <div className="form-group">
@@ -52,7 +51,7 @@ class BadgeForm extends React.Component {
                             name="lastName"
                             value={this.props.formValues.lastName}
                         />
-                        {/*     Con el atributo value lo que introduzcamos no se guarda dos veces, en el form y en el
+                        {/*Con el atributo value lo que introduzcamos no se guarda dos veces, en el form y en el
                         setState, solo en el setState*/}
                     </div>
                     <div className="form-group">
@@ -91,6 +90,7 @@ class BadgeForm extends React.Component {
                     >Save
                     </button>
                 </form>
+                {this.props.error && <p className="text-danger">{this.props.error.message}</p>}
             </div>
         );
     }
