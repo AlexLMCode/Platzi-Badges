@@ -7,6 +7,7 @@ import NotFound from "../pages/NotFound";
 import Home from "../pages/Home";
 import BadgeEdit from "../pages/BadgeEdit"
 import BadgeDetailsContainer from "../pages/BadgeDetailsContainer";
+
 function App() {
     return (
         <BrowserRouter>
